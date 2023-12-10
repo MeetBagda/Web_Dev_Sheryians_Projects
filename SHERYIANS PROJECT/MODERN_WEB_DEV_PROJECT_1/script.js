@@ -82,6 +82,7 @@ document.querySelectorAll(".elem").forEach(function(elem) {
   });
 
   elem.addEventListener("mousemove", function (dets) {
+    console.log(dets)
     var diffTop = dets.clientY - elem.getBoundingClientRect().top;
     var diffLeft = dets.clientX - elem.getBoundingClientRect().left;
     diffRot = dets.clientX - rotate;
@@ -93,6 +94,11 @@ document.querySelectorAll(".elem").forEach(function(elem) {
       top: diffTop - elem.querySelector("img").height / 2,
       left: diffLeft - elem.querySelector("img").width / 2,
       rotate: gsap.utils.clamp(-20, 20, diffRot * 0.5),
+    });
+
+    gsap.set(elem.querySelector("img"), {
+      bottom: "auto",
+      right: "auto",
     });
   });
 });
