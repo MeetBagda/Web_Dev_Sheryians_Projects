@@ -16,7 +16,7 @@ const Foreground = () => {
       },
     },
     {
-      desc: "This is the demo description in data.",
+      desc: "These docs are dragable.",
       filesize: ".3mb",
       close: true,
       tag: {
@@ -26,7 +26,7 @@ const Foreground = () => {
       },
     },
     {
-      desc: "This is the demo description in data.",
+      desc: "The data are dynamically, which can be changed by user.",
       filesize: ".1mb",
       close: true,
       tag: {
