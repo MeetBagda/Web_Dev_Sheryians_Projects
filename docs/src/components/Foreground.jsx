@@ -17,7 +17,7 @@ const Foreground = () => {
     },
     {
       desc: "This is the demo description in data.",
-      filesize: ".9mb",
+      filesize: ".3mb",
       close: true,
       tag: {
         isOpen: true,
@@ -27,7 +27,7 @@ const Foreground = () => {
     },
     {
       desc: "This is the demo description in data.",
-      filesize: ".9mb",
+      filesize: ".1mb",
       close: true,
       tag: {
         isOpen: false,
