@@ -1,0 +1,91 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html,body{ width: 100%; height: 100%;}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#top{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#workingArea{
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#nav{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nleft , #nright{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#nleft img{
+    height: 60px;
+}
+#nav a{
+    color: #fff;
+    font-family: 'Gilroy', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+#heroleft{
+    min-width: 50%;
+ }
+
+#heroleft .elem{
+    height: 9vw;
+    overflow: hidden;
+} 
+
+#heroleft .elem h1{
+    line-height: .9;
+    font-family: 'kajiro';
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#heroleft button{
+    font-family: 'kajiro';
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+#heroright{
+    min-width: 25%;
+    background-color: green;
+ }
