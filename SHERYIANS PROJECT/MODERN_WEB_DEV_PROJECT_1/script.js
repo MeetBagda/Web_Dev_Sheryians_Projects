@@ -81,7 +81,7 @@ document.querySelectorAll(".elem").forEach(function(elem) {
     });
   });
 
-  elem.addEventListener("mousemove", function (dets) {
+  elem.addEventListener("mouseenter", function (dets) {
     console.log(dets)
     var diffTop = dets.clientY - elem.getBoundingClientRect().top;
     var diffLeft = dets.clientX - elem.getBoundingClientRect().left;
